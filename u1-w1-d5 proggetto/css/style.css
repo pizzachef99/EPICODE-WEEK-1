@@ -1,89 +1,102 @@
-
- body {
+body {
   text-align: center;
-  
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
-} 
-p{font-family: 'Roboto', sans-serif;}
-  
- h1,h3,p,div{
-    padding:10px
- }
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
 
+h1,h3,p, .header { padding: 10px;
+}
 
- img{ width: 80%;}
-  
+img {
+  width: 80%;
+  margin-top: 50px;
+}
 
 .header {
   background-image: url(../images/banner.jpg);
   background-size: cover;
 
 }
-.logo{background-color: black;
-width: 25%;
-margin-left: auto;
-margin-right: auto;
+.logo {
+  background-color: black;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.header h1{
- font-size: 1.8em;
-     
+.header h1 {
+  font-size: 1.8em;
 }
 
- 
-header p,h1,.orange{
- margin: 20px;
-
+header p,
+h1,
+.orange {
+  margin: 20px;
 }
 
 h1,
 h3 {
   color: rgb(41, 105, 201);
- font-weight: 700;
-
-
+  font-weight: 700;
 }
-.orange{
+.orange {
   background-color: orangered;
   color: aliceblue;
   border-radius: 3px;
   font-variant: small-caps;
-  margin-left:auto ;
+  font-size: 1.2em;
+  width: 30%;
+  margin-left: auto;
+  font-weight: bold;
   margin-right: auto;
-width: 25%;
-padding: 10px;
-font-size: 1.2em;
-font-weight:bold;
-
-
 }
 
 .circolar-radius {
   border-radius: 50%;
 }
 
-
 .orange-box {
   background-color: orangered;
-color: aliceblue;
- padding: 10px;
- margin-bottom: 10px;
- margin:none;
-box-sizing: border-box;
-
+  color: aliceblue;
+height: 280px;
 }
-.orange-box h3{
+.orange-box h3 {
   font-size: 1.8em;
   color: aliceblue;
+  
 }
-.orange-box h6{
+.orange-box h6 {
   font-size: 1.5em;
 }
 
-
-
-.form {
+.footer {
   background-color: rgb(20, 111, 231);
-  color: aliceblue;
+  line-height: 1;
+  color: antiquewhite;
+  height: 350px;
 }
 
+.footer h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 20px;
+}
+.footer hr{
+  width:50%;
+  margin-left: auto;
+  margin-left: auto;
+  margin-top:10px
+}
+.footer div{
+
+  text-decoration: none;
+}
+.footer a{
+  color: aliceblue;
+}
+.footer p a {text-decoration: none;
+ 
+}
