@@ -1,0 +1,9 @@
+ul{padding: 20px;}
+    
+table {
+border-collapse:collapse
+}
+td, th {
+border:1px solid #ddd;
+padding:8px;
+}
